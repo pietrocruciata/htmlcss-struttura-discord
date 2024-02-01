@@ -18,7 +18,7 @@
 
 .row {
     display: flex;
-    
+
 }
 
 .col-1 {
@@ -41,6 +41,10 @@
     height: 200px;
 }
 
+.col-19 {
+    width: 19%;
+}
+
 .col-60 {
     width: 60%;
     padding-left: 100px;
@@ -49,6 +53,10 @@
 .col-40 {
     width: 40%;
     padding-left: 100px;
+}
+
+.col-24 {
+    width: 24%;
 }
 
 .p-top-5 {
@@ -77,38 +85,59 @@
     height: 200px;
 }
 
+.bg-red {
+    background-color: red;
+}
+
 .bg-orange {
     background-color: orange;
 }
 
+.bg-lightseagreen {
+    background-color: lightseagreen;
+}
+
 .bg-pink {
     background-color: pink;
-}   
+}
 
-.eat{
+.eat {
     width: 300px;
     height: 150px;
 }
 
-.m-auto{
+
+.hw-300-600 {
+    height: 300px;
+    width: 600px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.m-auto {
     margin: auto;
 }
-    
-.p-30{
+
+.p-30 {
     padding: 30px;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: lightgray;
 }
 
+.bg-black {
+    background-color: black;
+}
 
-.jc-end{
+.jc-end {
     display: flex;
     justify-content: flex-end;
 }
 
-.f-reverse{
+.f-reverse {
     flex-direction: row-reverse;
 }
 
