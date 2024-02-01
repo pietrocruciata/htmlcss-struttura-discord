@@ -1,0 +1,121 @@
+/*reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*layout*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.col-1 {
+    width: 20%;
+    border: 2px dashed black;
+}
+
+
+.col-2 {
+    width: 60%;
+    border: 2px dashed black;
+}
+
+.col-20 {
+    width: 20%;
+    padding: 0 35;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.col-60 {
+    width: 60%;
+    padding-left: 100px;
+}
+
+.col-40 {
+    width: 40%;
+    padding-left: 100px;
+}
+
+.p-top-5 {
+    padding-top: 5px;
+}
+
+.p-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.placeholder {
+    padding: 40px;
+}
+
+.border-dashed {
+    border: 2px dashed black;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+    margin-top: 8px;
+}
+
+.bg-blue {
+    background-color: blue;
+    height: 200px;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-pink {
+    background-color: pink;
+}   
+
+.eat{
+    width: 300px;
+    height: 150px;
+}
+
+.m-auto{
+    margin: auto;
+}
+    
+.p-30{
+    padding: 30px;
+}
+
+.bg-grey{
+    background-color: lightgray;
+}
+
+
+.jc-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f-reverse{
+    flex-direction: row-reverse;
+}
+
+/*debug*/
+
+.debug {
+    border: 2px dashed black;
+    padding: 20px;
+
+}
